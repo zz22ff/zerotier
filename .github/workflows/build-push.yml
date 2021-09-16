@@ -20,3 +20,4 @@ jobs:
       run: echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
     - name: Push Docker Image
       run: docker push zz22ff/zerotier:latest
+
