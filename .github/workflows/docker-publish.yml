@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag zz22ff/zerotier:latest
+      run: docker build . --file Dockerfile --tag zz22ff/zerotier:1.6.2
     - name: Check out the repo
       uses: actions/checkout@v2
     - name: Log in to Docker Hub
@@ -28,4 +28,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
          push: true
-         tags: zz22ff/zerotier:latest
+         tags: zz22ff/zerotier:1.6.2
