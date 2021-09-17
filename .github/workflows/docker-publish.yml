@@ -10,11 +10,7 @@ jobs:
 
   build:
 
-<<<<<<< HEAD
     runs-on: Ubantu-latest
-=======
-    runs-on: ubuntu-latest
->>>>>>> eb57ef0c72989658967728c855960d43df6c4468
 
     steps:
     - uses: actions/checkout@v2
