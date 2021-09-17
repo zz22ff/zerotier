@@ -8,15 +8,10 @@ on:
 
 jobs:
 
-<<<<<<< HEAD
+
   Build_Docker_image:
     name: Build Docker image
     runs-on: Debian-latest
-=======
-  build:
-
-    runs-on: ubuntu-latest
->>>>>>> 40e3c8ad64e34cf6261838e40828f9019af3344a
 
     steps:
     - uses: actions/checkout@v2
