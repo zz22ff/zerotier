@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  Build_Docker_image:
+  build:
     name: Build Docker image
     runs-on: Ubantu-latest
 
